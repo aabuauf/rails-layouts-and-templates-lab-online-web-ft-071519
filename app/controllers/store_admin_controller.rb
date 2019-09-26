@@ -23,4 +23,8 @@ class StoreAdminController < ApplicationController
 
   def show
   end
+  
+  def order
+    
+  end
 end
