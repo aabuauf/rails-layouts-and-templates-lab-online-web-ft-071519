@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'storeadmin_controller/new'
+
+  get 'storeadmin_controller/home'
+
+  get 'storeadmin_controller/show'
+
   get 'static_controller/new'
 
   get 'static_controller/create'
